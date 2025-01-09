@@ -7,7 +7,7 @@ dotenv.config();
 
 @Module({
   imports: [
-    MongooseModule.forRoot(process.env.MONGODB_URI), // Conexão com MongoDB Atlas
+    MongooseModule.forRoot("mongodb+srv://bunikeporty:nQbIJjLr1ikOJrXe@cluster0.3xgi3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"), // Conexão com MongoDB Atlas
     ProjectModule, // Módulo dos projetos
   ],
 })
